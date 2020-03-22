@@ -1,0 +1,282 @@
+/******************************************** RESPONSIVE STYLES*****************************************/
+
+
+
+/* ---------- MAX 1024PX ---------- */
+@media only screen and (min-width:901px) and (max-width:1025px) {
+ul.dropdown li {
+    font-size: 12px;
+    font-weight: 400;
+}
+ul.dropdown a, ul.dropdown span {
+    padding: 8px 14px;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    top:445px;
+}	
+
+
+
+
+}
+
+
+
+
+
+
+/* ----------min-width:768px and  max-width:900px ---------- */
+@media only screen and (min-width:768px) and (max-width:900px) {
+section.banner_area {
+    margin-top: -159px;
+}
+.logo_area {
+    text-align: center;
+}
+.menu_area ul {
+    margin-top: 7px;
+}
+ul.dropdown li {
+    font-size: 12px;
+    font-weight: 400;
+}
+ul.dropdown a, ul.dropdown span {
+    padding: 8px 10px;
+}
+.dnt3-menu ul.dropdown ul li a:hover{color:#000;}
+.carousel-caption{
+	display:none;
+	}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    top:320px;
+}
+section.About_us_front {
+    min-height: auto;
+    padding: 0px 0px 15px 0px;
+}
+section.services_area {
+    min-height: auto;
+    padding: 10px 0px 30px 0px;
+}
+.services_area_text p {
+    min-height: auto;
+}
+section.Donate_now {
+    height: auto;
+}
+section.Donate_now h2 {
+    font-size: 22px;
+    margin-top: 25px;
+}
+section.Donate_now p {
+    font-size: 14px;
+}
+.cv-link {
+    width: 160px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+	margin-left:0px;
+}
+.footer_list2 {
+    float:left;
+	text-align: center;
+    width: 100%;
+	margin-top: 5px;
+}
+footer p {
+    text-align:left;
+    margin-top: 10px;
+}
+.footer_list1{
+	 text-align:left;
+	}
+.footer_list1 ul li {
+    padding: 1px 10px 0px 0px;
+}
+
+
+
+}
+
+
+/* ---------- MAX 767PX ---------- */
+@media only screen and (min-width:321px) and (max-width:767px) {
+section.banner_area {
+    margin-top: -157px;
+}
+.menu_area {
+    margin-top: -83px;
+}
+ul.dropdown li {
+    border-bottom: 1px solid #F3CA1F;
+    background: #FCCD05;
+}
+.dnt3-menu ul.dropdown li a {
+    color: #000;
+}
+ul.dropdown {
+    border-top:0px solid #3399FF;
+}
+.dnt3-menu ul.dropdown ul {
+    background: transparent !important;
+}
+.dnt3-menu ul.dropdown a:hover, 		
+.dnt3-menu ul.dropdown a.active{color:#fff;
+}
+.dnt3-menu ul.dropdown ul li a:hover{color:#000;}
+.carousel-caption{
+	display:none;
+	}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    top:320px;
+}
+section.About_us_front {
+    min-height: auto;
+    padding: 0px 0px 15px 0px;
+}
+.section_heading3 h1 {
+    font-size: 22px;
+    line-height: 75px;
+}
+section.services_area {
+    min-height: auto;
+    padding: 10px 0px 30px 0px;
+}
+.services_area_text p {
+    min-height: auto;
+}
+section.Donate_now {
+    height: auto;
+}
+section.Donate_now h2 {
+    font-size: 22px;
+    margin-top: 25px;
+}
+section.Donate_now p {
+    font-size: 14px;
+}
+.cv-link {
+    width: 160px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+	margin-left:0px;
+}
+.footer_list2 {
+    float:left;
+	text-align: center;
+    width: 100%;
+	margin-top: 5px;
+}
+footer p {
+    text-align: center;
+    margin-top: 10px;
+}
+.footer_list1{
+	 text-align: center;
+	}
+.footer_list1 ul li {
+    padding: 1px 10px 0px 0px;
+}
+
+
+
+
+
+}
+
+/* ---------- MAX 320PX ---------- */
+@media only screen and (max-width:320px) {
+section.banner_area {
+    margin-top:0px;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    top: 115px;
+}
+.logo_area {
+    text-align: center;
+}
+.carousel-caption{
+	display:none;
+	}
+ul.dropdown li {
+    border-bottom: 1px solid #F3CA1F;
+    background: #FCCD05;
+}
+.dnt3-menu ul.dropdown li a {
+    color: #000;
+}
+ul.dropdown {
+    border-top:0px solid #3399FF;
+}
+.dnt3-menu ul.dropdown ul {
+    background: transparent !important;
+}
+.dnt3-menu ul.dropdown a:hover, 		
+.dnt3-menu ul.dropdown a.active{color:#fff;
+} 
+.dnt3-menu ul.dropdown ul li a:hover{color:#000;}
+section.About_us_front {
+    padding: 10px 0px 20px 0px;
+}
+.section_heading3 h1 {
+    font-size: 22px;
+    line-height: 75px;
+}
+.About_us_front_wrapper {
+    margin-top:0px;
+}
+section.services_area {
+    min-height: auto;
+    padding: 6px 0px 35px 0px;
+}
+section.Donate_now {
+    height: auto;
+}
+section.Donate_now h2 {
+    font-size: 22px;
+    margin-top: 25px;
+}
+section.Donate_now p {
+    font-size: 14px;
+}
+.cv-link {
+    width: 160px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+	margin-left:0px;
+}
+.footer_list2 {
+    float:left;
+	text-align: center;
+    width: 100%;
+	margin-top: 5px;
+}
+footer p {
+    text-align: center;
+    margin-top: 10px;
+}
+.footer_list1{
+	 text-align: center;
+	}
+.footer_list1 ul li {
+    padding: 1px 10px 0px 0px;
+}
+
+/*=============================
+	inner pages
+	==============================*/
+.height {
+    height: auto;
+}
+.inner_about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.inner_about h3{
+	margin-bottom: 10px;
+	}
+
+
+
+
+}
